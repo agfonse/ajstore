@@ -121,8 +121,16 @@
               "devServerTarget": "ajstore:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "ajstore"
+    }
+  },
+  "defaultProject": "ajstore",
+  "cli": {
+    "analytics": false
+  }
 }
